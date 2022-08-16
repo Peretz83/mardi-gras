@@ -93,7 +93,7 @@
 
 /* Carousel */
 #slide-1 {
-  background-image: url(/Mardi_Gras_Project/imgs/mardi-gras-free-entertainment-potawatomi.jpeg);
+  background-image: url(/mardi-gras/imgs/mardi-gras-free-entertainment-potawatomi.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   height: 800px;
@@ -101,7 +101,7 @@
 
 }
 #slide-2 {
-  background-image: url(/Mardi_Gras_Project/imgs/AP20051234718507.webp);
+  background-image: url(/mardi-gras/imgs/images.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   height: 800px;
@@ -109,14 +109,14 @@
 }
 
 #slide-3 {
-  background-image: url(/Mardi_Gras_Project/imgs/mardi-gras-costumes.jpeg);
+  background-image: url(/mardi-gras/imgs/mardi-gras-costumes.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   height: 800px;
 
 }
 #slide-4 {
-  background-image: url(/Mardi_Gras_Project/imgs/images.jpeg);
+  background-image: url(/mardi-gras/imgs/images.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   height: 800px;
