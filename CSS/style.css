@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  width: 100vw;
+  height: 100px;
+  background-color: #f2cc0f;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-bar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+
+}
+
+.homepage-li {
+  margin: 20px;
+  display: flex;
+  /* background-color: #9453a6; */
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  width: 100px;
+  font-family: "Henny Penny";
+  color: #9453a6;
+}
+
+.homepage-li:hover {
+
+
+  color: #8cbf3f;
+  background-color: "red";
+  height: 80px;
+}
+
+.a-about {
+  text-decoration: none;
+  color: #9453a6;
+}
+
+#nav-color {
+  background-color: #8cbf3f;
+
+}
+
+#link-color {
+  color: #9453a6;
+  font-family: "Henny Penny";
+  text-decoration: none;
+}
+
+.logo-header {
+  display: flex;
+  font-family: "Henny Penny";
+
+
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin-top: 5px;
+}
+@media (max-width: 1000px) {
+
+  .nav-bar{
+    display: none;
+  }
+}
+
+.span1-header {
+  color: #9453a6;
+  font-size: 30px;
+}
+
+.span2-header {
+  color: #8cbf3f
+}
+
+.span3-header {
+  color: #9453a6;
+  font-size: 40px;
+}
+
+/* Carousel */
+#slide-1 {
+  background-image: url(/Mardi_Gras_Project/imgs/mardi-gras-free-entertainment-potawatomi.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+
+}
+#slide-2 {
+  background-image: url(/Mardi_Gras_Project/imgs/AP20051234718507.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+
+}
+
+#slide-3 {
+  background-image: url(/Mardi_Gras_Project/imgs/mardi-gras-costumes.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+
+}
+#slide-4 {
+  background-image: url(/Mardi_Gras_Project/imgs/images.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  background-size: cover;
+
+}
+#slide-5 {
+  /* background-image: url(/mardi-gras-free-entertainment-potawatomi.jpeg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+
+}

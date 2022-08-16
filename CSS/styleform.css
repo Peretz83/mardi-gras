@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  width: 100vw;
+  height: 100px;
+  background-color: #f2cc0f;
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-bar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+
+}
+
+.homepage-li {
+  margin: 20px;
+  display: flex;
+  /* background-color: #9453a6; */
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  width: 100px;
+  font-family: "Henny Penny";
+  color: #9453a6;
+}
+
+.homepage-li:hover {
+
+
+  color: #8cbf3f;
+  background-color: "red";
+  height: 80px;
+}
+
+.a-about {
+  text-decoration: none;
+  color: #9453a6;
+}
+
+#nav-color {
+  background-color: #8cbf3f;
+
+}
+
+#link-color {
+  color: #9453a6;
+  font-family: "Henny Penny";
+  text-decoration: none;
+}
+
+.logo-header {
+  display: flex;
+  flex-direction: column;
+  font-family: "Henny Penny";
+
+
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin-top: 5px;
+}
+
+.span1-header {
+  color: #9453a6;
+  font-size: 30px;
+}
+
+.span2-header {
+  color: #8cbf3f
+}
+
+.span3-header {
+  color: #9453a6;
+  font-size: 40px;
+}
+/* nav/header ends here */
+#root{
+  width: 100%;
+}
+
+.form-wrap {
+  margin: auto;
+  width: 40%;
+  height: 800px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f2cc0f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 400px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  margin-top: 75px;
+  background-color: #f2f2f2;
+  margin:10px auto;
+
+}
+
+.name-email-wrap {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.name-field {
+  width: 100%;
+  margin-right: 10px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+}
+
+.name-field:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.name-field::placeholder {
+  color: white;
+}
+
+
+.email-field {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+}
+
+.email-field:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.email-field::placeholder {
+  color: white;
+}
+
+
+
+.subject-field {
+  margin-bottom: 10px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+
+}
+
+.subject-field:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.subject-field::placeholder {
+  color: white;
+}
+
+
+.textarea {
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+}
+
+.textarea:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.textarea::placeholder {
+  color: white;
+}
+
+
+.submit-button {
+  width: 30%;
+  height: 70px;
+  margin: auto;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border: 3px solid #9453a6;
+  align-self: flex-end;
+  min-width: 197px;
+  color: #9453a6;
+}
+
+.submit-button:hover {
+  background-color: #f2cc0f;
+  color: white;
+}
+
+.errMsg {
+  color: red;
+  font-size: 12px;
+}
