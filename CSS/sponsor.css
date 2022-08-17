@@ -8,7 +8,7 @@
   width: 100vw;
   height: 100px;
   background-color: #f2cc0f;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
   color: #9453a6;
 }
 
-.a-about:hover {
+.homepage-li:hover {
 
 
   color: #8cbf3f;
@@ -70,9 +70,10 @@
   width: 80vw;
   margin-top: 5px;
 }
+
 @media (max-width: 1000px) {
 
-  .nav-bar{
+  .nav-bar {
     display: none;
   }
 }
@@ -100,6 +101,7 @@
   background-size: cover;
 
 }
+
 #slide-2 {
   background-image: url(/mardi-gras/imgs/images.jpeg);
   background-position: center;
@@ -115,6 +117,7 @@
   height: 800px;
 
 }
+
 #slide-4 {
   background-image: url(/mardi-gras/imgs/images.jpeg);
   background-position: center;
@@ -123,6 +126,7 @@
   background-size: cover;
 
 }
+
 #slide-5 {
   /* background-image: url(/mardi-gras-free-entertainment-potawatomi.jpeg); */
   background-position: center;
@@ -130,19 +134,21 @@
   height: 800px;
 
 }
-.top-footer-wrap{
+
+.top-footer-wrap {
   width: 100vw;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   background-color: #9453a6;
-  
+
 }
-.logos{
+
+.logos {
   display: flex;
-  
-  
+
+
   width: 100vw;
 }
 
@@ -150,10 +156,11 @@
   width: 40px;
   position: relative;
   border-radius: 20px;
- 
-  
+
+
 
 }
+
 .facebook-logo {
   width: 40px;
   margin-left: 20px;
@@ -161,20 +168,23 @@
 
 
 }
+
 .instagram-logo {
   width: 40px;
   margin-left: 20px;
   border-radius: 20px;
-  
-  
+
+
 
 }
+
 .twitter-logo {
   width: 40px;
   margin-left: 20px;
   border-radius: 20px;
 }
-.bottom-footer-wrap{
+
+.bottom-footer-wrap {
 
   width: 100vw;
   height: 70px;
@@ -185,88 +195,61 @@
 
 }
 
-.sponsors-logo{
+.sponsors-logo {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   width: 80%;
   height: 100%;
-  margin-left:100px;
-  
+  margin-left: 100px;
+
 }
 
-.ritz-logo{
+.ritz-logo {
   width: 120px;
   margin: 20px;
   border-radius: 5px;
 }
-.ritz-logo:hover {
-  transform: scale(1.5);
+
+.parking-logo {
+  width: 60px;
+  margin: 20px;
+  border-radius: 5px;
 }
 
-.parking-logo{
-width: 60px;
-margin: 20px;
-border-radius: 5px;
-}
-.parking-logo:hover {
-  transform: scale(1.5);
-}
 .hauntedMuseum-logo {
   width: 100px;
   margin: 20px;
   border-radius: 5px;
 }
-.hauntedMuseum-logo:hover {
-  transform: scale(1.5);
-}
+
 .museum-death-logo {
   width: 80px;
   margin: 20px;
   border-radius: 5px;
 }
-.museum-death-logo:hover {
-  transform: scale(1.5);
-}
+
 .ace-logo {
   width: 100px;
   margin: 20px;
   border-radius: 5px;
-  
+
 }
-.ace-logo:hover {
-  transform: scale(1.5);
-}
+
 .lcm-logo {
- width: 100px;
- margin: 20px;
- border-radius: 5px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 5px;
 }
-.lcm-logo:hover {
+
+.walk-on-logo {
+  width: 100px;
+  margin: 20px;
+  border-radius: 5px;
+
+}
+
+.walk-on-logo:hover {
   transform: scale(1.5);
-}
-.walk-on-logo{
-width: 100px;
-margin: 20px;
-border-radius: 5px;
-
-}
-.walk-on-logo:hover{
-  transform: scale(1.5);
-}
-#elem{
-  cursor: pointer;
-}
-
-/* mid section */
-.father-div1{
-  background-color: #8cbf3f;
-}
-
-.main-wrap-about-us{
-  width: 100vw;
-  height: 100px;
-clip-path:polygon(0% 0%, 70% 62%, 100% 83%, 100% 100%, 0% 100%);
-  background-color: #f2cc0f;
 }
