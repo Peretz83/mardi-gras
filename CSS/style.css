@@ -36,7 +36,7 @@
   color: #9453a6;
 }
 
-.homepage-li:hover {
+.a-about:hover {
 
 
   color: #8cbf3f;
@@ -129,4 +129,132 @@
   background-repeat: no-repeat;
   height: 800px;
 
+}
+.top-footer-wrap{
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #9453a6;
+  
+}
+.logos{
+  display: flex;
+  
+  
+  width: 100vw;
+}
+
+.youtube-logo {
+  width: 40px;
+  position: relative;
+  border-radius: 20px;
+ 
+  
+
+}
+.facebook-logo {
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 20px;
+
+
+}
+.instagram-logo {
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 20px;
+  
+  
+
+}
+.twitter-logo {
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.bottom-footer-wrap{
+
+  width: 100vw;
+  height: 70px;
+  background-color: #8cbf3f;
+  display: flex;
+  align-items: center;
+  justify-content: center›;
+
+}
+
+.sponsors-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 80%;
+  height: 100%;
+  margin-left:100px;
+  
+}
+
+.ritz-logo{
+  width: 120px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.ritz-logo:hover {
+  transform: scale(1.5);
+}
+
+.parking-logo{
+width: 60px;
+margin: 20px;
+border-radius: 5px;
+}
+.parking-logo:hover {
+  transform: scale(1.5);
+}
+.hauntedMuseum-logo {
+  width: 100px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.hauntedMuseum-logo:hover {
+  transform: scale(1.5);
+}
+.museum-death-logo {
+  width: 80px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.museum-death-logo:hover {
+  transform: scale(1.5);
+}
+.ace-logo {
+  width: 100px;
+  margin: 20px;
+  border-radius: 5px;
+  
+}
+.ace-logo:hover {
+  transform: scale(1.5);
+}
+.lcm-logo {
+ width: 100px;
+ margin: 20px;
+ border-radius: 5px;
+}
+.lcm-logo:hover {
+  transform: scale(1.5);
+}
+.walk-on-logo{
+width: 100px;
+margin: 20px;
+border-radius: 5px;
+
+}
+.walk-on-logo:hover{
+  transform: scale(1.5);
+}
+#elem{
+  cursor: pointer;
 }
