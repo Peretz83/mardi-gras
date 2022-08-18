@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .top-nav {
   width: 100vw;
   height: 100px;
@@ -92,6 +93,10 @@
 /* nav/header ends here */
 #form-wrap{
   width: 100%;
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+  ;
+  
+  
 }
 
 .form-wrap {
@@ -133,6 +138,7 @@ form {
   border: none;
   padding: 15px;
   background-color: #9453a6;
+  border-radius: 10px;
 }
 
 .name-field:focus {
@@ -151,6 +157,7 @@ form {
   border: none;
   padding: 15px;
   background-color: #9453a6;
+  border-radius: 10px;
 }
 
 .email-field:focus {
@@ -170,6 +177,7 @@ form {
   border: none;
   padding: 15px;
   background-color: #9453a6;
+  border-radius: 10px;
 
 }
 
@@ -187,6 +195,7 @@ form {
   border: none;
   padding: 15px;
   background-color: #9453a6;
+  border-radius: 10px;
 }
 
 .textarea:focus {
@@ -196,6 +205,7 @@ form {
 
 .textarea::placeholder {
   color: white;
+  
 }
 
 

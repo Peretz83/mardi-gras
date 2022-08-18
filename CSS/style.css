@@ -2,7 +2,13 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+ 
 }
+
+body{
+ background-image: linear-gradient(#9453a6 ,#8cbf3f );
+}
+
 
 .top-nav {
   width: 100vw;
@@ -136,7 +142,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #9453a6;
+  background-image: linear-gradient(#9453a6, #8cbf3f);
   
 }
 .logos{
@@ -181,7 +187,7 @@
   background-color: #8cbf3f;
   display: flex;
   align-items: center;
-  justify-content: center›;
+  justify-content: center;
 
 }
 
@@ -274,7 +280,16 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
 .intro-header{
   margin: 50px auto;
   text-align: center;
+  
 }
+
+  
+
+
+
+
+
+
 .intro-text{
   width: 700px;
   margin:50px auto;
@@ -283,15 +298,38 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
 .main-sponsor-div{
  display: flex;
  margin: auto;
+ justify-content: center;
+ align-items: center;
   width: 100vw;
   height: 200px;
   margin: 50px auto;
   justify-content: center;
+  animation: moving 4s linear;
+  
+}
+@keyframes moving{
+  0%{
+    margin-right: -2000px;
+  }
+
 }
 .sponsorship-header {
   text-align: center;
-  margin-top: 50px;
+  animation: move 2s linear;
 }
+@keyframes move{
+  0%{
+    margin-left: -2000px;
+  }
+}
+
+
+
+
+
+
+
+
 .purple{
   width: 100vw;
   height: 40px;
@@ -305,82 +343,136 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 
 .main-wrap-tradition{
   width: 100vw;
-  height: 800px;
+  height: 600px;
   display: flex;
+ 
   
 }
 .photo-wrap{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 50%;
+  
 }
 
 .tradition-photo1{
-  width: 500px;
-  margin-left: 50px;
-  margin-top: 50px;
+  width:50%;
+  
+  
+  
   
 }
 .traditional-text{
-  width: 50%;
-  margin-left: 120px;
-  margin-top: 20px;
-  font-size: 12px;
+  width: 100%;
+  font-size: 10px;
+ margin-top: 20px;
+ 
+  
+  
+}
+
+.second-photo-wrap{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 50%;
 }
 .origins-img{
   width: 20%;
-  margin-left: 270px;
-  margin-top: 150px;
+  
 }
 .origins-text{
-  font-size: 10px;
-  margin-right: 50px;
+  font-size: 8px;
+  width: 100%;
   margin-top: 20px;
+  
+
+  
+}
+.mardi-gras-header1{
+  font-family: "Henny Penny";
+  text-align: center;
+}
+@media (max-width: 925px) {
+
+  .mardi-gras-header1 {
+    display: none;
+  }
 }
 
 .main-party-wrap{
   width: 100vw;
   height: 700px;
-  
-  border-bottom: 10px solid black;
   display: flex;
-  border: linear-gradient(red, yellow, green);
+  
  
 }
 
 .party-photo-wrap{
 display: flex;
 flex-direction: column;
-margin: 50px auto;
-margin-top: 100px;
+width: 50%;
+align-items: center;
+justify-content: start;
 
 }
 .party-img{
-  width: 90%;
-  margin: 50px auto;
+width: 300px;
+margin-top: 50px;
+
+ 
 }
 .bistro{
-  margin-top: -120px;
-  margin-left: 200px;
+  width: 300px;
+    margin-top: -100px;
+    margin-right: 280px;
+ 
 }
 .party2-img{
   width: 300px;
-  margin-top: -210px;
+  margin-top: -100px;
+  margin-left: 200px;
+
+  
 }
 .main-wrap-text{
-  width: 40%;
+  width: 50%;
+  height: 100%;
   display: flex;
-margin-right: 30px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  font-size: 12px;
+ font-size: 12px;
   
-  
-  
-}
+  }
+
+  @media (max-width: 925px) {
+
+    .night-life-header {
+      display: none;
+    }
+  }
+  .night-life-text{
+    width: 80%;
+    font-size: 12px;
+  }
+  @media (max-width: 925px) {
+
+    .night-life-text {
+      display: none;
+    }
+  }
+
+
 .beer-img{
   width: 100px;
   border-radius: 70px;
+}
+@media (max-width: 925px) {
+
+  .beer-img {
+    display: none;
+  }
 }
 .dot-wrap{
   width: 100vw;
