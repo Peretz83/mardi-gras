@@ -96,45 +96,53 @@ body{
   color: #9453a6;
   font-size: 40px;
 }
-
+.carousel{
+  width: 85%;
+  margin: auto;
+}
 /* Carousel */
-#slide1 {
-  background-image: url(/mardi-gras/imgs/mardi-gras-free-entertainment-potawatomi.jpeg);
+#slide-1 {
+  background-image: url(/mardi-gras/imgs/mardi-gras-first-slide.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height:700px;
+  background-size: cover;
+  opacity: 90%;
+}
+
+#slide-2 {
+  background-image: url(/mardi-gras/imgs/mg-costume.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 700px;
   background-size: cover;
 
 }
-#slide2 {
-  background-image: url(/mardi-gras/imgs/images.jpeg);
+
+#slide-3 {
+  background-image: url(/mardi-gras/imgs/mardi_gras_flag.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
-
-}
-
-#slide3 {
-  background-image: url(/mardi-gras/imgs/mardi-gras-costumes.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
-
-}
-#slide4 {
-  background-image: url(/mardi-gras/imgs/images.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
   background-size: cover;
+  height: 700px;
 
 }
-#slide-5 {
-  /* background-image: url(/mardi-gras-free-entertainment-potawatomi.jpeg); */
+
+#slide-4 {
+  background-image: url(/mardi-gras/imgs/mardi-gras-float.webp);
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
-
+  background-size: cover;
+  height: 700px;
+  opacity: 90%;
+}
+#slide-5{
+  background-image: url(/mardi-gras/imgs/mardi_gras_parade.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  opacity: 90%;
 }
 .top-footer-wrap{
   width: 100vw;
@@ -143,6 +151,8 @@ body{
   align-items: center;
   justify-content: flex-start;
   background-image: linear-gradient(#9453a6, #8cbf3f);
+  padding: 40px;
+
   
 }
 .logos{
@@ -195,12 +205,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
- 
-  width: 80%;
+ width: 80%;
   height: 100%;
   margin-left:100px;
+  min-width: 880px;
   
 }
+
 
 .ritz-logo{
   width: 120px;
@@ -393,13 +404,9 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 .mardi-gras-header1{
   font-family: "Henny Penny";
   text-align: center;
+  margin-top: 75px;
 }
-@media (max-width: 925px) {
 
-  .mardi-gras-header1 {
-    display: none;
-  }
-}
 
 .main-party-wrap{
   width: 100vw;
@@ -420,6 +427,7 @@ justify-content: start;
 .party-img{
 width: 300px;
 margin-top: 50px;
+ box-shadow: 4px 4px 10px black;
 
  
 }
@@ -427,20 +435,32 @@ margin-top: 50px;
   width: 300px;
     margin-top: -100px;
     margin-right: 280px;
- 
-}
+    box-shadow: 4px 4px 10px black;
+    }
+
+    .bistro:hover{
+      transform: scale(1.1);
+    }
 .party2-img{
   width: 300px;
   margin-top: -100px;
   margin-left: 200px;
+   box-shadow: 4px 4px 10px black;
 
   
+}
+.party2-img:hover {
+  transform: scale(1.1);
+}
+.party-img:hover{
+  transform: scale(1.1);
 }
 .main-wrap-text{
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
  font-size: 12px;
   
@@ -455,11 +475,13 @@ margin-top: 50px;
   .night-life-text{
     width: 80%;
     font-size: 12px;
+     margin-top: 50px;
   }
   @media (max-width: 925px) {
 
     .night-life-text {
       display: none;
+     
     }
   }
 
@@ -467,6 +489,7 @@ margin-top: 50px;
 .beer-img{
   width: 100px;
   border-radius: 70px;
+  margin-top: 50px;
 }
 @media (max-width: 925px) {
 
