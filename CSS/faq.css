@@ -253,3 +253,14 @@
 .walk-on-logo:hover {
   transform: scale(1.5);
 }
+#bootstrap-5 {
+  background-color: #9453a6;
+}
+.accordian-wrap {
+  border: 2px solid black;
+  width: 75%;
+  margin: 100px auto;
+}
+body{
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+}
