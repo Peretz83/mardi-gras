@@ -258,3 +258,32 @@
 .walk-on-logo:hover {
   transform: scale(1.5);
 }
+body{
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+}
+.first-sec{
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+
+clip-path:polygon(30% 0%, 70% 0%, 100% 0%, 70% 100%, 30% 100%, 0% 0%);
+background-color: beige;
+}
+.about-header{
+  text-align: center;
+  font-family: "Henny Penny";
+  
+  padding:20px
+}
+.about-text{
+  width: 300px;
+  text-align: center;
+}
+.btn-wrap{
+  display: flex;
+  justify-content: center;
+}
+
