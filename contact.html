@@ -71,6 +71,9 @@
 
   <div id="form-wrap">
 
+    <div id="submitMsg"></div>
+
+
     <h6>For press inquiries, please contact press@mardigrasneworleans.com. For all other questions, please use the
       form
       below.</h6>
@@ -84,6 +87,7 @@
           <label for="name">Enter name:</label>
 
           <input class="name-field" type="text" id="name" name="name" placeholder="Name">
+          <div id="name-err-msg"></div>
         </div>
         <div style="display: flex;
         flex-direction: column;
@@ -91,6 +95,7 @@
         " class="name-email-wrap">
           <label for="email">Enter email:</label>
           <input class="email-field" type="email" id="email" name="email" placeholder="Email">
+          <div id="email-err-msg"></div>
         </div>
       </div>
       <label for="subject">Enter subject:</label>
@@ -99,7 +104,7 @@
       <label for="message">Enter message:</label>
 
       <textarea class="textarea" name="message" id="message" cols="100" rows="6" placeholder="Message"></textarea>
-      <div id="errors"></div>
+
 
       <button class="submit-button">Send message!</button>
     </form>

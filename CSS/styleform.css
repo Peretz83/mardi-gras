@@ -124,6 +124,16 @@ form {
   margin:10px auto;
 
 }
+label{
+  background-color: aqua;
+  display: none;
+}
+
+/* @media (max-width: 1000px){
+  label{
+    display: none;
+  }
+} */
 
 .name-email-wrap {
   display: flex;
@@ -140,6 +150,16 @@ form {
   background-color: #9453a6;
   border-radius: 10px;
 }
+/* @media(min-width:1001px) and (max-width:1600px){
+  .name-field::placeholder,
+  .email-field::placeholder,
+  .subject-field::placeholder,
+  .textarea::placeholder{
+    color: transparent;
+  }
+
+} */
+
 
 .name-field:focus {
   border-bottom: 8px solid #f2cc0f;
@@ -349,4 +369,17 @@ form {
 .walk-on-logo:hover {
   transform: scale(1.5);
 }
+#submitMsg{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+ left:550px;
+  top: 200px;
+  visibility: hidden;
+  
+  
+
+}
+
+
 
