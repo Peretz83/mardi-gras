@@ -124,10 +124,10 @@ form {
   margin:10px auto;
 
 }
-label{
+/* label{
   background-color: aqua;
   display: none;
-}
+} */
 
 /* @media (max-width: 1000px){
   label{
@@ -380,6 +380,130 @@ label{
   
 
 }
+
+
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 400px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  margin-top: 75px;
+  background-color: #f2f2f2;
+
+}
+
+.name-email-wrap {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.name-field {
+  width: 100%;
+  margin-right: 10px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+}
+
+.name-field:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.name-field::placeholder {
+  color: white;
+}
+
+
+.email-field {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+}
+
+.email-field:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.email-field::placeholder {
+  color: white;
+}
+
+
+
+.subject-field {
+  margin-bottom: 10px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+
+}
+
+.subject-field:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.subject-field::placeholder {
+  color: white;
+}
+
+
+.textarea {
+  border: none;
+  padding: 15px;
+  background-color: #9453a6;
+}
+
+.textarea:focus {
+  border-bottom: 8px solid #f2cc0f;
+  outline: none;
+}
+
+.textarea::placeholder {
+  color: white;
+}
+
+
+.submit-button {
+  width: 30%;
+  height: 70px;
+  margin: auto;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border: 3px solid #9453a6;
+  align-self: flex-end;
+  min-width: 197px;
+  color: #9453a6;
+}
+
+.submit-button:hover {
+  background-color: #f2cc0f;
+  color: white;
+}
+
+.errMsg {
+  color: red;
+  font-size: 12px;
+}
+
+@media (max-width: 1000px) {
+  label {
+    display: none;
+
+  }
+}
+
 
 
 

@@ -253,3 +253,36 @@
 .walk-on-logo:hover {
   transform: scale(1.5);
 }
+
+/* footer ends here */
+#card-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-divs{
+  width: 200px;
+  height: 150px;
+  background-color: beige;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+align-items: center;
+ 
+}
+#hotel-logo{
+  width: 50px;
+}
+#hotel-img {
+  width: 50px;
+}
+#h1{
+  font-size: 15px;
+}
+#p{
+  font-size: 10px;
+}
+
+

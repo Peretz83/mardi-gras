@@ -503,3 +503,26 @@ margin-top: 50px;
   background-color: lightblue;
 }
 
+/* start of quiz */
+#take-quiz {
+  width: 200px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 90%;
+  left: 8%;
+}
+
+#quiz {
+  width: 400px;
+  height: 500px;
+  background-color: red;
+  position: absolute;
+  top: 100%;
+  left: 8%;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
