@@ -280,14 +280,18 @@
 }
 
 .inner-divs{
-  width: 250px;
+  width: 220px;
   height: 175px;
   background-color: beige;
-  margin-left: 5px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 align-items: center;
+cursor: pointer;
+border-radius: 4px;
+ box-shadow:4px 4px 10px black;
+
  
 }
 #hotel-logo{
@@ -319,6 +323,9 @@ align-items: center;
   font-size: 10px;
   margin-top: 4px;
   background-color: #f2cc0f;
+  color: #9453a6;
+  border: none;
+  box-shadow:4px 4px 10px black;
   
 }
 body{
