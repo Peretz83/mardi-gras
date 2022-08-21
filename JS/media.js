@@ -6,22 +6,22 @@ let myVideoArr = [
   {
 
   header:"Check out Mardi Gras 2022",
-  video:"https://www.youtube.com/embed/OmnTodQlEaw" ,
+  video:"https://www.youtube.com/embed/CaHsvjCZUJs" ,
   },
   {
 
   header:"Check out Mardi Gras 2022",
-  video:"https://www.youtube.com/watch?v=OmnTodQlEaw",
+  video:"https://www.youtube.com/embed/7J3ZKkmQxEE",
   },
   {
 
-  header:"Check out Mardi Gras 2022",
-  video:"https://www.youtube.com/watch?v=OmnTodQlEaw",
+  header:"Mardi Gras for Children of all ages",
+  video:"https://www.youtube.com/embed/pBFSY4RM0p4",
   },
   {
 
-  header:"Check out Mardi Gras 2022",
-  video:"https://www.youtube.com/watch?v=OmnTodQlEaw",
+  header:"Mardi Gras 2020",
+  video:"https://www.youtube.com/embed/a8l3u8GJLr8",
   }
 
 ]
@@ -37,8 +37,8 @@ this.video = video
 renderVideo(){
 myVideoWrap.innerHTML +=`
 <div class="inner-divs">
-<h1>${this.header}</h1>
- <iframe width="560" height="315" src="${this.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1 class="all-headers">${this.header}</h1>
+ <iframe width="300" height="200" src="${this.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 `
 
