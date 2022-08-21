@@ -91,10 +91,16 @@
   font-size: 40px;
 }
 /* nav/header ends here */
+
+.header{
+  text-align: center;
+  padding: 10px;
+}
 #form-wrap{
   width: 100%;
+  height: 600px;
   background-image: linear-gradient(#9453a6, #8cbf3f);
-  ;
+  
   
   
 }
@@ -112,6 +118,7 @@
   background-color: #f2cc0f;
 }
 
+
 form {
   display: flex;
   flex-direction: column;
@@ -124,16 +131,7 @@ form {
   margin:10px auto;
 
 }
-/* label{
-  background-color: aqua;
-  display: none;
-} */
 
-/* @media (max-width: 1000px){
-  label{
-    display: none;
-  }
-} */
 
 .name-email-wrap {
   display: flex;
