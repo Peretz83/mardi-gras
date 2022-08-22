@@ -123,15 +123,15 @@ for(let card of myCardArr ){
   })
 
 
-  let backSide =document.querySelectorAll(".back-side-wrap")
+//   let backSide =document.querySelectorAll(".back-side-wrap")
 
-  backSide.forEach((allBackers)=>{
+//   backSide.forEach((allBackers)=>{
 
- allBackers.addEventListener('click', ()=>{
+//  allBackers.addEventListener('click', ()=>{
 
-    console.log('does it work?');
-  })
-  })
+//     console.log('does it work?');
+//   })
+//   })
  
 
 

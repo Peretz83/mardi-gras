@@ -298,9 +298,17 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
 }
 
 .intro-header{
-  margin: 50px auto;
+  margin: 50px ;
   text-align: center;
+  animation:  move 4s linear;
+  font-family: "Pattaya";
   
+}
+@keyframes move {
+  0% {
+    margin-left: -2000px;
+  }
+
 }
 
   
@@ -317,29 +325,30 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
 
 .main-sponsor-div{
  display: flex;
- margin: auto;
  justify-content: center;
  align-items: center;
   width: 100vw;
   height: 200px;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   justify-content: center;
-  animation: moving 4s linear;
+  animation:sponsorshipsec 4s linear;
+  
   
 }
-@keyframes moving{
+@keyframes sponsorshipsec {
   0%{
-    margin-right: -2000px;
+    margin-left: -2000px;
   }
 
 }
 .sponsorship-header {
   text-align: center;
-  animation: move 2s linear;
+  animation: sponsor 2s linear;
+  font-family: "Pattaya";
 }
-@keyframes move{
+@keyframes sponsor{
   0%{
-    margin-left: -2000px;
+    margin-right: -2000px;
   }
 }
 
@@ -359,6 +368,12 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 .origins-header{
   font-family: "Penny Henny";
   text-align: center;
+}
+.hr-1{
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: black;
 }
 
 .main-wrap-tradition{
@@ -384,9 +399,10 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
   
 }
 .traditional-text{
-  width: 100%;
+  width: 80%;
   font-size: 10px;
  margin-top: 20px;
+ 
  
   
   
@@ -404,109 +420,124 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 }
 .origins-text{
   font-size: 8px;
-  width: 100%;
+  width: 80%;
   margin-top: 20px;
+ 
   
 
   
 }
 .mardi-gras-header1{
-  font-family: "Henny Penny";
+  font-family: "Pattaya";
   text-align: center;
   margin-top: 75px;
 }
 
+.fixed-wrap{
+display: flex;
+height: 700px;
+}
 
-.main-party-wrap{
+.main-party-wrap {
   width: 100vw;
   height: 700px;
   display: flex;
-  
- 
-}
 
-.party-photo-wrap{
-display: flex;
-flex-direction: column;
-width: 50%;
-align-items: center;
-justify-content: start;
 
 }
-.party-img{
-width: 300px;
-margin-top: 50px;
- box-shadow: 4px 4px 10px black;
 
- 
+.party-photo-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: start;
+
 }
-.bistro{
+
+.party-img {
   width: 300px;
-    margin-top: -100px;
-    margin-right: 280px;
-    box-shadow: 4px 4px 10px black;
-    }
+  margin-top: 50px;
+  box-shadow: 4px 4px 10px black;
 
-    .bistro:hover{
-      transform: scale(1.1);
-    }
-.party2-img{
+
+}
+
+.bistro {
+  width: 300px;
+  margin-top: -100px;
+  margin-right: 280px;
+  box-shadow: 4px 4px 10px black;
+}
+
+.bistro:hover {
+  transform: scale(1.1);
+}
+
+.party2-img {
   width: 300px;
   margin-top: -100px;
   margin-left: 200px;
-   box-shadow: 4px 4px 10px black;
+  box-shadow: 4px 4px 10px black;
 
-  
+
 }
+
 .party2-img:hover {
   transform: scale(1.1);
 }
-.party-img:hover{
+
+.party-img:hover {
   transform: scale(1.1);
 }
-.main-wrap-text{
+
+.main-wrap-text {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- font-size: 12px;
-  
+  font-size: 12px;
+
+}
+
+@media (max-width: 925px) {
+
+  .night-life-header {
+    display: none;
   }
+}
 
-  @media (max-width: 925px) {
+.night-life-text {
+  width: 80%;
+  font-size: 12px;
+  margin-top: 50px;
+}
 
-    .night-life-header {
-      display: none;
-    }
+@media (max-width: 925px) {
+
+  .night-life-text {
+    display: none;
+
   }
-  .night-life-text{
-    width: 80%;
-    font-size: 12px;
-     margin-top: 50px;
-  }
-  @media (max-width: 925px) {
-
-    .night-life-text {
-      display: none;
-     
-    }
-  }
+}
 
 
-.beer-img{
+.beer-img {
   width: 100px;
   border-radius: 70px;
   margin-top: 50px;
 }
+
 @media (max-width: 925px) {
 
   .beer-img {
     display: none;
   }
 }
-.dot-wrap{
+
+.dot-wrap {
   width: 100vw;
   height: 30px;
   background-color: lightblue;
@@ -514,24 +545,36 @@ margin-top: 50px;
 
 /* start of quiz */
 #take-quiz {
-  width: 200px;
-  height: 150px;
-  background-color: red;
-  position: absolute;
-  top: 90%;
-  left: 8%;
-}
+  width: 100px;
+  height: 100px;
+  background-color: beige;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 30px;
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+  border: solid 3px black;
+  cursor: pointer;
+  transition: .4s;
+  
+  
+  }
+  #take-quiz:hover{
+    transform:scale(1.1) ;
+  }
 
 #quiz {
-  width: 400px;
-  height: 500px;
-  background-color: red;
-  position: absolute;
-  top: 100%;
-  left: 8%;
+  width: 350px;
+  height: 100%;
   visibility: hidden;
   display: flex;
   flex-direction: column;
+  display: none;
+  margin: auto;
+  
 }
 
 
