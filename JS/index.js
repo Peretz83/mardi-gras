@@ -110,6 +110,35 @@ closeBtn.addEventListener("click",()=>{
 
 })
 
+// countdown to Mardi Gras
+let countdown = ()=> {
+  let countDate = new Date("Feb 21, 2023 00:00:00").getTime();
+  let now = new Date().getTime();
+
+  let remainingTime = countDate - now;
+
+  let second = 1000;
+  let minute = second * 60;
+  let hour = minute * 60;
+  let day = hour * 24;
+
+  let textDay = Math.floor(remainingTime / day);
+  let textHour = Math.floor((remainingTime % day) / hour);
+  let textMinute = Math.floor((remainingTime % hour) / minute);
+  let textSecond = Math.floor((remainingTime % minute) / second);
+
+  document.querySelector(".day").innerText = textDay > 0 ? textDay :0;
+  document.querySelector(".our").innerText = textHour > 0 ? textHour :0;
+  document.querySelector(".minute").innerText = textMinute > 0 ? textMinute :0;
+  document.querySelector(".second").innerText = textSecond > 0 ? textSecond :0;
+
+}
+
+setInterval(countdown, 500);
+
+
+
+
 
 
 

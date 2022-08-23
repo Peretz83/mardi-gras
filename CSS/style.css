@@ -28,6 +28,9 @@ body{
 
 
 }
+.navbar-nav{
+  margin-left: 30px;
+}
 
 .homepage-li {
   margin: 20px;
@@ -57,6 +60,7 @@ body{
 
 #nav-color {
   background-color: #8cbf3f;
+  
 
 }
 
@@ -72,12 +76,13 @@ body{
 .logo-header {
   display: flex;
   font-family: "Henny Penny";
-
-
-  align-items: center;
-  justify-content: center;
+  width: 800px;
+ 
+align-items: flex-end;
+  justify-content: flex-end;
   width: 80vw;
   margin-top: 5px;
+  margin-right: 20px;
 }
 @media (max-width: 1000px) {
 
@@ -160,9 +165,8 @@ body{
 }
 .logos{
   display: flex;
-  
-  
   width: 100vw;
+  
 }
 
 .youtube-logo {
@@ -208,10 +212,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
- width: 80%;
+ width: 100%;
   height: 100%;
-  margin-left:100px;
+  margin-right:50px;
   min-width: 880px;
+  
   
 }
 @media (max-width: 1000px) {
@@ -259,6 +264,7 @@ border-radius: 5px;
   width: 100px;
   margin: 20px;
   border-radius: 5px;
+  margin-right: 100px;
   
 }
 .ace-logo:hover {
@@ -302,6 +308,7 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
   text-align: center;
   animation:  move 4s linear;
   font-family: "Pattaya";
+  text-shadow: 2px 2px 4px black;
   
 }
 @keyframes move {
@@ -345,6 +352,7 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
   text-align: center;
   animation: sponsor 2s linear;
   font-family: "Pattaya";
+  text-shadow: 2px 2px 4px black;
 }
 @keyframes sponsor{
   0%{
@@ -366,8 +374,9 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
 clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 }
 .origins-header{
-  font-family: "Penny Henny";
-  text-align: center;
+ font-family: "Pattaya";
+ text-shadow: 2px 2px 4px black;
+ text-align: center;
 }
 .hr-1{
   width: 250px;
@@ -393,6 +402,8 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 
 .tradition-photo1{
   width:50%;
+  border-radius: 8px;
+  box-shadow: 2px 2px  black;
   
   
   
@@ -416,6 +427,8 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 }
 .origins-img{
   width: 20%;
+  border-radius: 8px;
+  box-shadow: 2px 2px  black;
   
 }
 .origins-text{
@@ -431,6 +444,7 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
   font-family: "Pattaya";
   text-align: center;
   margin-top: 75px;
+  text-shadow: 2px 2px black;
 }
 
 .fixed-wrap{
@@ -500,6 +514,10 @@ height: 700px;
   justify-content: center;
   font-size: 12px;
 
+}
+.night-life-header{
+  font-family: "Pattaya";
+  text-shadow: 2px 2px black;
 }
 
 @media (max-width: 925px) {
@@ -579,7 +597,117 @@ margin: auto;
   flex-direction: column;
   display: none;
   margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px gray;
+  border-radius: 20px;
   
+ 
+ 
+  
+}
+#submit-quiz-btn{
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 10px;
+   height: 30px;
+   background-color: #f2cc0f;
+   box-shadow: 4px 4px 4px gray;
+}
+#close-quiz-btn{
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 10px;
+  height: 30px;
+  background-color: #f2cc0f;
+  box-shadow: 4px 4px 4px gray;
+
+}
+
+/* countdown starts here */
+.coming-soon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+  margin-right: 50px;
+  padding: 20px;
+ 
+ 
+  
+}
+.coming-soon{
+  width: 400px;
+  display: flex;
+ 
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  margin-left: 650px;
+  background-color: black;
+  border-radius:20px ;
+}
+
+.countdown{
+  display: flex;
+  justify-content: space space-around;
+  color: white;
+  
+  
+  
+
+}
+.day,
+.our,
+.minute,
+.second{
+  font-size: 10px;
+}
+.waiting{
+  height:50vh ;
+}
+h3{
+  margin-left: 20px;
+}
+
+.day{
+ 
+
+}
+.our{
+  
+  
+}
+.minute {
+  margin-right:-20px ;
+  
+}
+
+.h31{
+ 
+  font-size: 10px;
+  margin-right: 20px;
+}
+.h32{
+  
+   font-size: 10px;
+   margin-right: 20px;
+}
+.h33 {
+  
+   font-size: 10px;
+}
+.h34{
+   font-size: 10px;
+}
+.header{
+  text-align: center;
+  font-size: 12px;
+  color: white;
 }
 
 

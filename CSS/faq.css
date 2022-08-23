@@ -48,6 +48,9 @@
   text-decoration: none;
   color: #9453a6;
 }
+.a-about:hover{
+  color: #8cbf3f;
+}
 
 #nav-color {
   background-color: #8cbf3f;

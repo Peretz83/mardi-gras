@@ -84,6 +84,7 @@ form.addEventListener("submit", (evt) => {
     displayMsg.style.visibility = "visible"
     displayMsg.style.backgroundColor = "beige"
     displayMsg.innerHTML = "Thank you, " + `${newClients[0].name}` + "!" + " " + submitMsg
+    
     let xBtn = document.createElement("button")
     displayMsg.appendChild(xBtn)
     xBtn.innerHTML = "&times;"

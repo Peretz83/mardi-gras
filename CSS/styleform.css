@@ -95,6 +95,7 @@
 .header{
   text-align: center;
   padding: 10px;
+  font-family: "Pattaya";
 }
 #form-wrap{
   width: 100%;
@@ -371,9 +372,12 @@ form {
   width: 300px;
   height: 200px;
   position: absolute;
- left:550px;
-  top: 200px;
+ left:800px;
+  top: 400px;
   visibility: hidden;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: black;
   
   
 
@@ -384,12 +388,15 @@ form {
 #my-form {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 800px;
   height: 400px;
   box-shadow: 2px 2px 5px black;
   padding: 10px;
   margin-top: 75px;
-  background-color: #f2f2f2;
+  background-color: black;
+  color: #f2cc0f;
+  border-radius: 10px;
+ 
 
 }
 
@@ -402,10 +409,11 @@ form {
 .name-field {
   width: 100%;
   margin-right: 10px;
-  height: 50px;
-  border: none;
+  height: 30px;
+  border: white 1px solid;
   padding: 15px;
   background-color: #9453a6;
+  
 }
 
 .name-field:focus {
@@ -414,16 +422,17 @@ form {
 }
 
 .name-field::placeholder {
-  color: white;
+color: white
 }
 
 
 .email-field {
   width: 100%;
-  height: 50px;
+  height: 30px;
   border: none;
   padding: 15px;
   background-color: #9453a6;
+  border: solid white 1px;
 }
 
 .email-field:focus {
@@ -439,7 +448,7 @@ form {
 
 .subject-field {
   margin-bottom: 10px;
-  height: 50px;
+  height: 30px;
   border: none;
   padding: 15px;
   background-color: #9453a6;
@@ -476,7 +485,7 @@ form {
   width: 30%;
   height: 70px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 100px;
   letter-spacing: 2px;
   background-color: transparent;
   border: 3px solid #9453a6;
