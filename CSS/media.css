@@ -260,6 +260,7 @@
 
 .all-headers{
   font-size: 20px;
+  text-align: center;
 
 }
 body{
@@ -267,6 +268,7 @@ body{
 }
 #video-wrap{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .inner-divs{

@@ -38,10 +38,9 @@ renderVideo(){
 myVideoWrap.innerHTML +=`
 <div class="inner-divs">
 <h1 class="all-headers">${this.header}</h1>
- <iframe width="300" height="200" src="${this.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="650" height="550" src="${this.video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 `
-
 }
 }
 

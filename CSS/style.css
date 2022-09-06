@@ -161,8 +161,7 @@ align-items: flex-end;
   background-image: linear-gradient(#9453a6, #8cbf3f);
   padding: 40px;
 
-  
-}
+  }
 .logos{
   display: flex;
   width: 100vw;
@@ -215,16 +214,11 @@ align-items: flex-end;
  width: 100%;
   height: 100%;
   margin-right:50px;
-  min-width: 880px;
-  
-  
-}
-@media (max-width: 1000px) {
-
-  .sponsors-logo {
-  
+  min-width: 1385px;
   }
-}
+
+
+
 
 
 .ritz-logo{
@@ -289,6 +283,14 @@ border-radius: 5px;
 }
 #elem{
   cursor: pointer;
+}
+section{
+
+  width: 100%;
+}
+.countdown-wrap{
+  width: 50%;
+
 }
 
 /* mid section */
@@ -628,86 +630,71 @@ margin: auto;
 }
 
 /* countdown starts here */
-.coming-soon{
+.countdown {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  height: 70px;
-  margin-right: 50px;
-  padding: 20px;
- 
- 
-  
-}
-.coming-soon{
-  width: 400px;
-  display: flex;
- 
-  border: 2px solid black;
   justify-content: center;
   align-items: center;
-  margin-left: 650px;
+  background-color: #9453a6b8;
+  width: 300px;
+  height: 100px;
+  margin: 20px auto;
+  border-radius: 10px;
   background-color: black;
-  border-radius:20px ;
 }
 
-.countdown{
+.container-day {
+  background-color: #f2f2f2;
   display: flex;
-  justify-content: space space-around;
-  color: white;
-  
-  
-  
-
-}
-.day,
-.our,
-.minute,
-.second{
-  font-size: 10px;
-}
-.waiting{
-  height:50vh ;
-}
-h3{
-  margin-left: 20px;
+  flex-direction: column;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 5px;
 }
 
-.day{
- 
+.container-hour {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 5px;
 
 }
-.our{
-  
-  
-}
-.minute {
-  margin-right:-20px ;
-  
+
+.container-minute {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 5px;
+
 }
 
-.h31{
- 
-  font-size: 10px;
-  margin-right: 20px;
+.container-second {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
 }
-.h32{
-  
-   font-size: 10px;
-   margin-right: 20px;
-}
-.h33 {
-  
-   font-size: 10px;
-}
-.h34{
-   font-size: 10px;
-}
-.header{
+
+h2{
   text-align: center;
-  font-size: 12px;
-  color: white;
 }
 
+
+h6 {
+  margin: 5px;
+}
+.countdown-title{
+  color: white;
+}
 
