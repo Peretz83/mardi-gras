@@ -144,15 +144,15 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #9453a6;
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+  padding: 40px;
 
 }
 
 .logos {
   display: flex;
-
-
   width: 100vw;
+
 }
 
 .youtube-logo {
@@ -194,7 +194,7 @@
   background-color: #8cbf3f;
   display: flex;
   align-items: center;
-  justify-content: center›;
+  justify-content: center;
 
 }
 
@@ -202,7 +202,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+min-width: 1385px;
   width: 80%;
   height: 100%;
   margin-left: 100px;

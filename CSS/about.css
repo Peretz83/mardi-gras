@@ -146,15 +146,15 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #9453a6;
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+  padding: 40px;
 
 }
 
 .logos {
   display: flex;
-
-
   width: 100vw;
+
 }
 
 .youtube-logo {
@@ -196,7 +196,7 @@
   background-color: #8cbf3f;
   display: flex;
   align-items: center;
-  justify-content: center›;
+  justify-content: center;
 
 }
 
@@ -208,6 +208,7 @@
   width: 80%;
   height: 100%;
   margin-left: 100px;
+  min-width: 1385px;
 
 }
 
@@ -270,7 +271,7 @@ body{
   font-size: 12px;
 
 clip-path:polygon(30% 0%, 70% 0%, 100% 0%, 70% 100%, 30% 100%, 0% 0%);
-background-color: beige;
+background-color: #8cbf3f;
 }
 .about-header{
   text-align: center;
@@ -298,7 +299,7 @@ background-color: beige;
   width: 100vw;
   height: 600px;
   clip-path:polygon(30% 0%, 70% 0%, 100% 0%, 70% 100%, 30% 100%, 0% 0%);
-  background-color: beige;
+  background-color: #bb79ce8a;
  display: flex;
  flex-direction: column;
  justify-content: center;

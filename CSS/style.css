@@ -214,8 +214,11 @@ align-items: flex-end;
  width: 100%;
   height: 100%;
   margin-right:50px;
-  min-width: 1385px;
+   min-width: 2000px;
+ 
   }
+
+  
 
 
 
@@ -445,13 +448,17 @@ clip-path:polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 13%, 0% 0%);
 .mardi-gras-header1{
   font-family: "Pattaya";
   text-align: center;
-  margin-top: 75px;
+position: absolute;
+left: 340px;
+
+
   text-shadow: 2px 2px black;
 }
 
 .fixed-wrap{
 display: flex;
 height: 700px;
+background-color: #9453a6a9;
 }
 
 .main-party-wrap {
@@ -515,6 +522,7 @@ height: 700px;
   align-items: center;
   justify-content: center;
   font-size: 12px;
+  
 
 }
 .night-life-header{
@@ -525,7 +533,7 @@ height: 700px;
 @media (max-width: 925px) {
 
   .night-life-header {
-    display: none;
+    text-align: center;
   }
 }
 
@@ -569,6 +577,12 @@ margin: auto;
 }
 
 /* start of quiz */
+
+#countdownHeader{
+  font-family: "Henny Penny";
+  margin-top: 15px;
+}
+
 #take-quiz {
   width: 100px;
   height: 100px;
@@ -593,7 +607,7 @@ margin: auto;
 
 #quiz {
   width: 350px;
-  height: 100%;
+  height: 800px;
   visibility: hidden;
   display: flex;
   flex-direction: column;
@@ -602,15 +616,56 @@ margin: auto;
   background-color: black;
   color: white;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+ padding: 20px;
   text-shadow: 2px 2px gray;
   border-radius: 20px;
+  }
+
+#question1-wrap {
   
- 
- 
-  
+  margin-bottom: 10px;
 }
+#question2-wrap {
+  
+  margin-bottom: 10px;
+}
+#question3-wrap {
+
+  margin-bottom: 10px;
+}
+#question4-wrap {
+
+  margin-bottom: 10px;
+}
+#question5-wrap {
+
+  margin-bottom: 10px;
+}
+#question6-wrap {
+
+  margin-bottom: 10px;
+}
+#question7-wrap {
+
+  margin-bottom: 10px;
+}
+#question8-wrap {
+
+  margin-bottom: 10px;
+}
+#question9-wrap {
+
+  margin-bottom: 10px;
+}
+#question10-wrap {
+
+  margin-bottom: 10px;
+}
+
+
+
+
+
 #submit-quiz-btn{
   border-radius: 15px;
   padding: 5px;
@@ -618,6 +673,7 @@ margin: auto;
    height: 30px;
    background-color: #f2cc0f;
    box-shadow: 4px 4px 4px gray;
+   margin-right: 50px;
 }
 #close-quiz-btn{
   border-radius: 15px;
@@ -634,16 +690,15 @@ margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #9453a6b8;
   width: 300px;
   height: 100px;
   margin: 20px auto;
-  border-radius: 10px;
-  background-color: black;
+  border-radius: 20px;
+   background-image: linear-gradient(#f2cc0f,#8cbf3f );
 }
 
 .container-day {
-  background-color: #f2f2f2;
+ 
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -655,7 +710,7 @@ margin: auto;
 }
 
 .container-hour {
-  background-color: #f2f2f2;
+  
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -666,7 +721,7 @@ margin: auto;
 }
 
 .container-minute {
-  background-color: #f2f2f2;
+
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -677,7 +732,7 @@ margin: auto;
 }
 
 .container-second {
-  background-color: #f2f2f2;
+ 
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -695,6 +750,8 @@ h6 {
   margin: 5px;
 }
 .countdown-title{
-  color: white;
+  color: black;
+  font-size: 8px;
+  margin-left: 15px;
 }
 

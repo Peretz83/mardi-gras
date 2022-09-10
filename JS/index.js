@@ -19,6 +19,7 @@ firstPopUp.addEventListener('click', () => {
     if(document.getElementById("true1").checked){
       myCorrectAnswer.push(document.getElementById("true1").value)
       document.getElementById("question1-wrap").style.backgroundColor = "green"
+      
 
     }else{
        document.getElementById("question1-wrap").style.backgroundColor = "red"
@@ -104,8 +105,10 @@ firstPopUp.addEventListener('click', () => {
 `
 let closeBtn = document.getElementById("close-quiz-btn")
 closeBtn.addEventListener("click",()=>{
- quiz.style.display = "none" 
-   quiz.style.visibility = "hidden" 
+//  quiz.style.display = "none" 
+//    quiz.style.visibility = "hidden"
+quiz.style.display="none" 
+
 })
 
 })

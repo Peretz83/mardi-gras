@@ -256,15 +256,15 @@ form {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #9453a6;
+  background-image: linear-gradient(#9453a6, #8cbf3f);
+  padding: 40px;
 
 }
 
 .logos {
   display: flex;
-
-
   width: 100vw;
+
 }
 
 .youtube-logo {
@@ -306,7 +306,7 @@ form {
   background-color: #8cbf3f;
   display: flex;
   align-items: center;
-  justify-content: center›;
+  justify-content: center;
 
 }
 
@@ -318,6 +318,7 @@ form {
   width: 80%;
   height: 100%;
   margin-left: 100px;
+  min-width:1500px;
 
 }
 

@@ -21,7 +21,7 @@ name:"Walk-Ons",
 {
 name:"Sharaton New Orleans",
   text:"Sharaton 5 star Hotel",
-  logo:"https://seeklogo.com/images/T/The_Ritz-Carlton-logo-77B2B1A7A0-seeklogo.com.png",
+  logo:"https://encore-venues.s3.amazonaws.com/4112/logo/logo.jpg",
   image:"https://media-cdn.tripadvisor.com/media/photo-s/24/40/84/52/hotel-exterior.jpg",
   link:"https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/rooms/"
 },
