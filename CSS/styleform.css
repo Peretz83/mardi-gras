@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+ 
+}
+body{
+  background-color: #8cbf3f;
 }
 
 
@@ -94,9 +98,11 @@
 
 .header{
   text-align: center;
-  padding: 10px;
+  padding: 40px;
   font-family: "Pattaya";
+  margin-bottom: 20px;
 }
+
 #form-wrap{
   width: 100%;
   height: 600px;
@@ -149,15 +155,7 @@ form {
   background-color: #9453a6;
   border-radius: 10px;
 }
-/* @media(min-width:1001px) and (max-width:1600px){
-  .name-field::placeholder,
-  .email-field::placeholder,
-  .subject-field::placeholder,
-  .textarea::placeholder{
-    color: transparent;
-  }
 
-} */
 
 
 .name-field:focus {
@@ -166,7 +164,7 @@ form {
 }
 
 .name-field::placeholder {
-  color: white;
+  color: transparent;
 }
 
 
@@ -185,7 +183,7 @@ form {
 }
 
 .email-field::placeholder {
-  color: white;
+  color:transparent
 }
 
 
@@ -206,7 +204,7 @@ form {
 }
 
 .subject-field::placeholder {
-  color: white;
+  color: transparent;
 }
 
 
@@ -223,7 +221,7 @@ form {
 }
 
 .textarea::placeholder {
-  color: white;
+  color: transparent
   
 }
 
@@ -307,7 +305,12 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+ 
 
+}
+.ptext{
+  margin-left: 15px;
 }
 
 .sponsors-logo {
@@ -317,8 +320,7 @@ form {
 
   width: 80%;
   height: 100%;
-  margin-left: 100px;
-  min-width:1500px;
+ 
 
 }
 
@@ -389,7 +391,7 @@ form {
 #my-form {
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 600px;
   height: 400px;
   box-shadow: 2px 2px 5px black;
   padding: 10px;
@@ -423,7 +425,7 @@ form {
 }
 
 .name-field::placeholder {
-color: white
+color: transparent;
 }
 
 
@@ -442,7 +444,7 @@ color: white
 }
 
 .email-field::placeholder {
-  color: white;
+  color: transparent;
 }
 
 
@@ -462,7 +464,7 @@ color: white
 }
 
 .subject-field::placeholder {
-  color: white;
+  color: transparent;
 }
 
 
@@ -478,7 +480,7 @@ color: white
 }
 
 .textarea::placeholder {
-  color: white;
+  color: transparent;
 }
 
 
@@ -507,9 +509,31 @@ color: white
 
 @media (max-width: 1000px) {
   label {
-    display: none;
+    color: transparent;
 
   }
+}
+
+@media (max-width:1000px){
+  .name-field::placeholder,
+  .email-field::placeholder,
+  .subject-field::placeholder,
+  .textarea::placeholder{
+    color: white;
+  }
+
+}
+
+.x-btn{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-color: black;
+ color: #f2cc0f;
+ border:solid 2px white;
+ margin-top: 50px;
+ margin-left: 80px;
 }
 
 

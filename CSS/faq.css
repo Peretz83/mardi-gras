@@ -195,6 +195,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 20px;
 
 }
 
@@ -202,10 +203,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-min-width: 1385px;
-  width: 80%;
+width: 80%;
   height: 100%;
-  margin-left: 100px;
+ 
 
 }
 

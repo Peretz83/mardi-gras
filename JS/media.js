@@ -5,12 +5,12 @@ let myVideoWrap = document.getElementById("video-wrap")
 let myVideoArr = [
   {
 
-  header:"Check out Mardi Gras 2022",
+  header:"Mardi Gras Parade",
   video:"https://www.youtube.com/embed/CaHsvjCZUJs" ,
   },
   {
 
-  header:"Check out Mardi Gras 2022",
+  header:"Check out Mardi Gras 2020",
   video:"https://www.youtube.com/embed/7J3ZKkmQxEE",
   },
   {
@@ -20,7 +20,7 @@ let myVideoArr = [
   },
   {
 
-  header:"Mardi Gras 2020",
+  header:"Mardi Gras Costumes",
   video:"https://www.youtube.com/embed/a8l3u8GJLr8",
   }
 

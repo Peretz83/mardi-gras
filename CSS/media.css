@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 .top-nav {
   width: 100vw;
   height: 100px;
@@ -96,48 +98,7 @@
   font-size: 40px;
 }
 
-/* Carousel */
-#slide-1 {
-  background-image: url(/mardi-gras/imgs/mardi-gras-free-entertainment-potawatomi.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 800px;
-  background-size: cover;
 
-}
-
-#slide-2 {
-  background-image: url(/mardi-gras/imgs/images.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 800px;
-
-}
-
-#slide-3 {
-  background-image: url(/mardi-gras/imgs/mardi-gras-costumes.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 800px;
-
-}
-
-#slide-4 {
-  background-image: url(/mardi-gras/imgs/images.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 800px;
-  background-size: cover;
-
-}
-
-#slide-5 {
-  /* background-image: url(/mardi-gras-free-entertainment-potawatomi.jpeg); */
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 800px;
-
-}
 
 .top-footer-wrap {
   width: 100vw;
@@ -196,6 +157,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 20px;
 
 }
 
@@ -206,8 +168,7 @@
 
   width: 80%;
   height: 100%;
-  margin-left: 100px;
-  min-width: 1385px;
+ 
 
 }
 
@@ -260,17 +221,34 @@
 }
 
 .all-headers{
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-family: "Henny Penny";
 
 }
 body{
   background-image: linear-gradient(#9453a6, #8cbf3f);
 }
+.h1 {
+  text-align: center;
+  height: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Henny Penny";
+
+  
+
+
+}
 #video-wrap{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 100px;
 }
 .inner-divs{
   margin-left: 15px;

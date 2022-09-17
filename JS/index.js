@@ -105,8 +105,7 @@ firstPopUp.addEventListener('click', () => {
 `
 let closeBtn = document.getElementById("close-quiz-btn")
 closeBtn.addEventListener("click",()=>{
-//  quiz.style.display = "none" 
-//    quiz.style.visibility = "hidden"
+
 quiz.style.display="none" 
 
 })

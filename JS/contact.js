@@ -82,7 +82,13 @@ form.addEventListener("submit", (evt) => {
     let submitMsg = "Your message has been received."
     let displayMsg = document.getElementById("submitMsg")
     displayMsg.style.visibility = "visible"
-    displayMsg.style.backgroundColor = "beige"
+    displayMsg.style.backgroundColor = "black"
+    displayMsg.style.color = "white"
+    displayMsg.style.border = "solid white 2px"
+    displayMsg.style.textAlign = "center"
+    displayMsg.style.padding = "50px"
+  
+
     displayMsg.innerHTML = "Thank you, " + `${newClients[0].name}` + "!" + " " + submitMsg
     
     let xBtn = document.createElement("button")
