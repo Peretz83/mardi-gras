@@ -112,7 +112,7 @@ body{
   
 }
 
-.form-wrap {
+/* .form-wrap {
   margin: auto;
   width: 40%;
   height: 800px;
@@ -123,7 +123,7 @@ body{
   align-items: center;
   padding: 50px;
   background-color: #f2cc0f;
-}
+} */
 
 
 form {
@@ -226,7 +226,7 @@ form {
 }
 
 
-.submit-button {
+/* .submit-button {
   width: 30%;
   height: 70px;
   margin: auto;
@@ -237,12 +237,12 @@ form {
   align-self: flex-end;
   min-width: 197px;
   color: #9453a6;
-}
+} */
 
-.submit-button:hover {
+/* .submit-button:hover {
   background-color: #f2cc0f;
   color: white;
-}
+} */
 
 .errMsg {
   color: red;
@@ -256,7 +256,7 @@ form {
   justify-content: flex-start;
   background-image: linear-gradient(#9453a6, #8cbf3f);
   padding: 40px;
-
+/* margin-top: 75px; */
 }
 
 .logos {
@@ -399,15 +399,15 @@ form {
 #my-form {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 75%;
   height: 400px;
   box-shadow: 2px 2px 5px black;
   padding: 10px;
-  margin-top: 75px;
+  margin-top: -20px;
   background-color: black;
   color: #f2cc0f;
   border-radius: 10px;
- 
+ margin-bottom: 75px;
 
 }
 
