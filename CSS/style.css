@@ -173,9 +173,9 @@ align-items: flex-end;
   height: 150px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   background-image: linear-gradient(#9453a6, #8cbf3f);
-  padding-left: 30px;
+  
   
 
   }
@@ -228,19 +228,19 @@ justify-content: center;
 
 .sponsors-logo{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
  width: 100%;
   height: 100%;
   
   }
-  @media (max-width: 1100px) {
 
+  @media(max-width: 1000px) {
     .sponsors-logo {
-     
       display: none;
     }
   }
+
 
 
   
@@ -400,7 +400,7 @@ clip-path:polygon(0% 0%, 70% 0%, 100% 0%, 100% 100%, 30% 42%, 0% 0%, 0% 0%);
   }
 
 }
-@media(max-width: 1500px){
+@media(max-width: 750px){
   .main-sponsor-div{
     display: none;
   }
@@ -814,3 +814,15 @@ h6 {
   margin-left: 15px;
 }
 
+.ritz-logo2,
+.sheraton-logo2,
+.parking-logo2,
+.lcm-logo2,
+.hauntedMuseum-logo2,
+.museum-death-logo2,
+.walk-on-logo2,
+.ace-logo2
+{
+width: 90px;
+margin-right: 10px;
+}
