@@ -1,4 +1,4 @@
-
+console.log('yayyyyyyyy');
 let mainDiv = document.getElementById("mayor-main-wrap")
 let myCardArr = [{
 
